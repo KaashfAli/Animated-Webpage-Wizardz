@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden ;
+}
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 10vw;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+nav h1{
+    font-size: 50px;
+}
+nav h1 i{
+    rotate: 45deg;
+    display: inline-block;
+    font-size: 55px;
+}
+nav h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+nav button{
+    padding: 22px 40px;
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/* Center portion */
+.center{
+    /* background-color: red; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    padding: 60px 100px;
+}
+.center-part1{
+    /* background-color: lightblue; */
+    height: 100%;
+    width: 40%;
+}
+.center-part1 h1{
+    font-size: 70px;
+    font-family: monospace;
+    line-height: 1.2;
+}
+.center-part1 p{
+    font-size: 25px;
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.center-part1 button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 22px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+}
+.center-part2{
+    /* background-color: lightblue; */
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+.center-part2 img{
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+/* Brands / Section1 bottom */
+
+.section1-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px;
+    /* margin-top: 10px; */
+}
+.section1-bottom img{
+    height: 60px;
+}
+.section2 .services{
+    /* background-color: red; */
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-top: 200px ;
+}
+.services h3{
+    background-color: #9AE975;
+    font-weight: 500;
+    font-size: 60px;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+.services p{
+    width: 45%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container{
+    height: 80%;
+    width: 100%;
+    padding: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.elem{
+    height: 400px;
+    width: 47%;
+    border: 2px solid black;
+    border-radius: 30px;
+    /* background-color: red; */
+    flex-shrink: 0;
+    box-shadow: 0px 15px 0px black;
+    padding: 60px;
+    display: flex;
+}
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elem-part1 h2{
+    font-size: 45px;
+    font-weight: 500;
+    width: 70%;
+    padding: 0px 5px;
+    border-radius: 10px;
+    background-color: #9AE975;
+}
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 500;
+    gap: 20px;
+}
+.elem-part1 h4 i{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-weight: 900;
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+}
+.elem-part2 img{
+    height: 100%;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.black h2{
+    background-color: white;
+    color: black;
+}
+.black h4 i{
+    background-color: white;
+    color: black;
+}
